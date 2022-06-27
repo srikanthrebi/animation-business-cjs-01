@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  position: relative;
+  top: 30px;
+  font-family: "Roboto", sans-serif;
+  left: 20px;
+  border: 1px solid black;
+  overflow: hidden;
+  width: 728px;
+  height: 90px;
+}
+
+/* Imgs */
+
+#img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#shape-2 {
+  position: absolute;
+  right: 1px;
+}
+#shape-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* icons */
+#icon-1 {
+  position: absolute;
+  bottom: -1px;
+  left: 140px;
+  width: 30px;
+  height: auto;
+  transform: scale(0);
+}
+#icon-2 {
+  position: absolute;
+  bottom: 15px;
+  left: 175px;
+  height: auto;
+  width: 30px;
+  transform: scale(0);
+
+}
+#icon-3 {
+  position: absolute;
+  top: 20px;
+  left: 207px;
+  height: auto;
+  width: 30px;
+  transform: scale(0);
+
+}
+#icon-4 {
+  position: absolute;
+  top: 2px;
+  left: 238px;
+  height: auto;
+  width: 30px;
+  transform: scale(0);
+
+}
+
+/* logo */
+
+#logo {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: all 1s ease  ;
+}
+
+/* Copy */
+
+#copy-1 {
+  position: absolute;
+  top: 10px;
+  right: 150px;
+  font-weight: 300;
+  opacity: 0;
+  transform: translateX(170px);
+  transition: all 1s ease  ;
+}
+#copy-2 {
+  position: absolute;
+  top: 30px;
+  right: 145px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #e91e63;
+  opacity: 0;
+  transform: translateX(170px);
+  transition: all 1s ease  ;
+}
+#copy-3 {
+  position: absolute;
+  bottom: 9px;
+  right: 145px;
+  font-size: 12px;
+  font-weight: 300;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease  ;
+}
+#button {
+  position: absolute;
+  bottom: 28px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  color: #ece63c;
+  right: 10px;
+  transform: scale(0);
+  background-color: #ed313f;
+}
+
+/* background */
+#bg-1 {
+  position: absolute;
+  background-color: #ed313f;
+  width: 320px;
+  height: auto;
+  left: 0;
+  padding: 45px;
+  transform: translateX(0);
+  transition: all 1s ease;
+  transform-origin: left;
+}
+#bg-2 {
+  position: absolute;
+  background-color: #ed313f;
+  width: 320px;
+  height: auto;
+  right: 0;
+  padding: 45px;
+  transform: translateX(0);
+  transition: all 1s ease;
+  transform-origin: right;
+}
